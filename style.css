@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10vmin;
+   
+}
+
+
+h2{
+    background-color:rgb(3, 3, 58);
+    color:white;
+    text-align: center;
+    padding: 2vmin;
+    font-size: 3vmin;
+
+}
+#game{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#choices{
+    display: flex;
+   justify-content: center;
+   gap: 5vmin;
+
+
+}
+.choice{
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+
+}
+img{
+    height: 18vmin;
+    width: 18vmin;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#scoreBoard{
+    display: flex;
+    justify-content: center;
+    gap: 10vmin;
+    font-size: 5vmin;
+
+}
+#result{
+    background-color:rgb(3, 3, 58) ;
+    color: white;
+    height: 5vmin;
+font-size: 4vmin;
+padding: 1vmin;
+align-items: center;
+line-height: 5vmin;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.choice:hover{
+    background-color: black;
+  
+   cursor: pointer;
+
+}
+#moveBox{
+    font-size: 5vmin;
+    display: flex;
+    justify-content: space-between;
+    gap: 8vmin;
+}
